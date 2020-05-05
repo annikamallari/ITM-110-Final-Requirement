@@ -1,0 +1,16 @@
+{% include "header.html" %}
+
+        <h1>Login</h1>
+        <form action="/auth" method="POST">
+            <div>Username</div>
+            <input type="text" name="username"></input>
+
+            <div>Password</div>
+            <input type="password" name="password"></input>
+
+            <div><input type="submit" value="Login"/></div>
+        </form>
+
+        No account yet? Register <a href='/register'>here.</a>
+
+{% include "footer.html" %}
